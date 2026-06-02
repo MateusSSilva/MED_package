@@ -2,7 +2,7 @@
 
 Studying human motor control requires metrics that are both sensitive to underlying physiological phenomena and interpretable in clinical and research contexts. The Movement Element Decomposition (MED) method was developed to address this need: grounded in motor-primitive and movement-optimization theories, it segments a continuous kinematic recording into discrete movement elements (MEs) and extracts features that are robust and directly linked to known mechanisms of motor control.
 
-This repository provides a unified, open-source implementation of MED across the three principal scientific computing platforms (MATLAB, Python, and R) in a single package file per language. The toolbox automates low-pass filtering, velocity-based segmentation, and the extraction of three categories of features per movement element: global features (displacement, velocity, duration, element count, and rate), shape features (similarity to the minimum-jerk bell profile and peak count), and scaling features (the power-law exponent and coefficient of the velocity–displacement relationship).
+This repository provides a unified, open-source implementation of MED across the three principal scientific computing platforms (MATLAB, Python, and R) in a single package file per language. The toolbox automates low-pass filtering, velocity-based segmentation, and the extraction of three categories of features per movement element: global features (displacement, velocity, duration, movement element count, and rate), shape features (similarity to the minimum-jerk bell profile and peak count), and scaling features (the power-law exponent and coefficient of the velocity–displacement relationship).
 
 ---
 
@@ -232,7 +232,7 @@ where t is normalized time, and V_mean is the mean velocity of the element.
 If you use this package in your research, please cite it as follows:
 
 **Plain Text Citation:**
-Silva, M. S., Qadri, L., Vijay, N., Miranda, J. G. V., & Daneault, J.-F. (2026). MED — Movement Element Decomposition Package. Zenodo. https://doi.org/10.5281/zenodo.20503394
+Silva, M. S., Qadri, L., Vijay, N., Miranda, J. G. V., & Daneault, J.-F. (2026). MED — Movement Element Decomposition Package. Zenodo. 
 
 **BibTeX:**
 ```bash
@@ -241,7 +241,7 @@ author       = {Silva, Mateus Souza and Qadri, Leila and Vijay, Neil and Miranda
 title        = {MED — Movement Element Decomposition Package},
 year         = {2026},
 publisher    = {Zenodo},
-doi          = {10.5281/zenodo.20503394},
-url          = {https://doi.org/10.5281/zenodo.20503394}
+doi          = {},
+url          = {}
 }
 ```
